@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+   double mealCost;
+   int tipPercent, taxPercent, totalCost;
+
+   cin >> mealCost >> tipPercent >> taxPercent; 
+
+   tipPercent = round(mealCost * tipPercent/100);
+   taxPercent = round(mealCost *  taxPercent/100);
+   totalCost = mealCost + tipPercent + taxPercent;
+   cout<<totalCost;
+}
