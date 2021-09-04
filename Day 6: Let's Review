@@ -1,0 +1,21 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    string n;
+    getline(cin, n);
+    
+    int i;
+    if(i%2 == 0){
+        cout<<n[i]<<endl;
+    }
+    else {
+        cout<<n[i];
+    }
+    return 0;
+}
