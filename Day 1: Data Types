@@ -1,0 +1,26 @@
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+
+int a;
+double b;
+string str;
+
+cin>>a>>b;
+getline(cin>>ws, str); 
+
+cout<<i+a<<endl;
+
+float e = d+b;
+
+cout<<fixed<<setprecision(1)<<e<<endl;
+cout<<s<<str<<endl;
+    return 0;
+}
